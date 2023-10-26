@@ -1,2 +1,2 @@
 # guest-lectures
-Collection repository containing hand-outs of lectures which are 
+Collection of lecture hand-outs
