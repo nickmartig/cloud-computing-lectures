@@ -5,6 +5,10 @@ class MyHandler(SimpleHTTPRequestHandler):
     def do_GET(self):
         if self.path == "/":
             self.path = "app/index.html"
+        elif self.path == "/style.css":
+            self.path = "app/style.css"
+        elif self.path == "/scan.js":
+            self.path = "app/scan.js"
         return SimpleHTTPRequestHandler.do_GET(self)
 
 
