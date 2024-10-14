@@ -1,5 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
-    const websocket = new WebSocket("ws://server-backend.ccl-demo.svc.cluster.local:8000/");
+    const websocket = new WebSocket("ws://server-backend.ccl-demo.svc:8000/");
   
     document.querySelector(".minus").addEventListener("click", () => {
       websocket.send(JSON.stringify({ action: "minus" }));
