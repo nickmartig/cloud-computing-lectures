@@ -45,7 +45,7 @@ async def counter(websocket):
 
 
 async def main():
-    async with serve(counter, "localhost", 6789):
+    async with serve(counter, "localhost", 8000):
         await asyncio.get_running_loop().create_future()  # run forever
 
 
