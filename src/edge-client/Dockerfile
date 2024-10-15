@@ -11,4 +11,4 @@ COPY . .
 EXPOSE 8000
 
 # Run the Python web server
-CMD ["python", "server.py"]
+CMD ["python", "client.py"]
