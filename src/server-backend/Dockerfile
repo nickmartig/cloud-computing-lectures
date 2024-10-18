@@ -11,7 +11,7 @@ RUN pip install websockets
 COPY . .
 
 # Expose the port that the app runs on
-EXPOSE 6789
+EXPOSE 8000
 
 # Run the Python web server
 CMD ["python", "server.py"]
