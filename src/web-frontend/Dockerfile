@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . .
 
 # Expose the port that the app runs on
-EXPOSE 8000
+EXPOSE 8080
 
 # Run the Python web server
 CMD ["python", "frontend.py"]
