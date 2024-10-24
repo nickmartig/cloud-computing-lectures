@@ -13,9 +13,9 @@ class MyHandler(SimpleHTTPRequestHandler):
 
 
 def run(server_class=HTTPServer, handler_class=MyHandler):
-    server_address = ("", 8080)
+    server_address = ("", 8000)
     httpd = server_class(server_address, handler_class)
-    print("Server started at http://localhost:8080")
+    print("Server started at http://localhost:8000")
     httpd.serve_forever()
 
 
