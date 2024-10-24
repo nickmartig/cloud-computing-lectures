@@ -1,5 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
-    const websocket = new WebSocket("ws://erver-backend-app-student-nick-martig.mycluster-eu-de-1-244439-975dd9665934b81fa7342475b7855171-0000.eu-de.containers.appdomain.cloud");
+    const websocket = new WebSocket("ws://server-backend-app-student-nick-martig.mycluster-eu-de-1-244439-975dd9665934b81fa7342475b7855171-0000.eu-de.containers.appdomain.cloud");
   
     document.querySelector(".minus").addEventListener("click", () => {
       websocket.send(JSON.stringify({ action: "minus" }));
